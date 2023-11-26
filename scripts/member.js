@@ -27,7 +27,7 @@ members.forEach((member) => {
       .querySelector("#memCodeacad")
       .setAttribute(
         "href",
-        `https://codeacademy.com/users/${member.codeAcademy}/achievements`
+        `https://codeacademy.com/profiles/${member.codeAcademy}`
       );
   }
 });

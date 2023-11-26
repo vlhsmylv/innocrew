@@ -68,10 +68,10 @@ Hello everyone! As part of the Homework 3 from our Principles of Information Sys
     These is links to our CodeAcademy achievements:
     <br /><br />
     <ul style="display: flex; flex-direction: column; gap: 10px;">
-      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/users/valismayilov/achievements">Valeh Ismayilov</a></li>
-      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="">Agil Mammadov</a></li>
-      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/users/khavar_jabbarli971/achievements">Khavar Jabbarli</a></li> 
-      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="">Murad Taghizada</a></li>
+      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/profiles/valismayilov">Valeh Ismayilov</a></li>
+      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/profiles/Agil709">Agil Mammadov</a></li>
+      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/profiles/khavar_jabbarli971">Khavar Jabbarli</a></li> 
+      <li>- <a style="color: white; text-decoration: underline;" target="_blank" href="https://codeacademy.com/profiles/Murad18130m">Murad Taghizada</a></li>
     </ul>
     <br />
     In general, we have 7 HTML pages in this project, which are divided as below:
