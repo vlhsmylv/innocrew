@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems Fall 2022 
+    (c)2022 by Team 10 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+  <head>
+    <title>Innocrew | One step beyond</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./media/logos/innocrew_icon_light.png"
+    />
+    <!-- Google Fonts Start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <!-- / Google Fonts End -->
+    <!-- Adding viewport for responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- / Adding viewport for responsiveness -->
+    <!-- Adding CSS files -->
+    <link rel="stylesheet" href="./styles/index.css" />
+    <!-- / Adding CSS files -->
+  </head>
+  <body>
+    <nav>
+      <!--Navbar with Logo-->
+      <a href="./index.html" id="logo-container">
+        <img id="logo" src="./media/logos/innocrew_full_light.png" alt="logo" />
+      </a>
+      <ul id="navlink" class="paragraph">
+        <li><a href="#">Home</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#projects">Projects</a></li>
+      </ul>
+      <!--End Of The Navbar-->
+    </nav>
+    <main>
+      <section id="video-section">
+        <div id="overlay">
+          <h3>Our Hour of Code project</h3>
+          <a target="_blank" href="./projects/index.html?project=our-hour-of-code"
+            >Visit Post</a
+          >
+        </div>
+        <video autoplay muted>
+          <source src="./media/video.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section id="members">
+        <div id="top">
+          <h3>About us</h3>
+          <article id="about-team">
+            <img src="./media/logos/ada_logo_color.png" alt="ADA University" />
+            <p>
+              We are Innocrew team (Team 10) created under the framework of the
+              Principles of Information Systems (SITE 1101) course at ADA
+              University. Our members are, Valeh Ismayilov, Agil Mammadov,
+              Khavar Jabbarli, and Murad Taghizada. One step beyond!
+            </p>
+          </article>
+        </div>
+        <hr />
+        <div id="bottom">
+          <h3>Members</h3>
+          <div id="member-container"></div>
+        </div>
+      </section>
+      <hr />
+      <!--projects Section-->
+      <section id="projects">
+        <div class="projects-header">
+          <h3>Projects</h3>
+        </div>
+        <div class="projects-container">
+          <!-- Dynamic Rendering -->
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <p>&copy; 2023. Innocrew.</p>
+      <div>
+        <a href="" target="_blank"> Our Github Repo </a>
+      </div>
+    </footer>
+    <!--/Footer-->
+  </body>
+  <script src="./scripts/projectsData.js"></script>
+  <script src="./scripts/projects.js"></script>
+  <script src="./scripts/memberData.js"></script>
+  <script src="./scripts/members.js"></script>
+  <script src="./scripts/animation.js"></script>
+</html>
